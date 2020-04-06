@@ -1,6 +1,6 @@
 {
     "icon": "fa-openshift",
-    "title": "Standalone Jupyter Notebooks",
+    "title": "Authoring Jupyter Notebooks",
     "description": "",
     "pathwayTitle": "OpenShift",
     "difficulty": "beginner",
@@ -12,12 +12,12 @@
         "showdashboard": true,
         "dashboards": [
             {
-                "name": "Console",
+                "name": "OpenShift",
                 "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"
             },
             {
                 "name": "Jupyter Notebook",
-                "port": 8888
+                "href": "https://notebook-myproject.[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/notebooks/katacoda-examples/jupyter-notebooks/example.ipynb"
             }
         ],
         "uilayout": "terminal-iframe"
@@ -25,9 +25,8 @@
     "details": {
         "assets": {
             "client": [
-                { "file": "jupyterhub_config.py", "target": "/root" },
-                { "file": "jupyterhub_config.sh", "target": "/root" },
-                { "file": "example.ipynb", "target": "/root" }
+                { "file": "jupyter_notebook_config.py", "target": "/root" },
+                { "file": "templates/notebook-deployer.json", "target": "/root" }
             ]
         },
         "intro": {
@@ -40,12 +39,16 @@
                 "text": "01-authoring-a-notebook.md"
             },
             {
-                "title": "Topic 2 - Authoring a Jupyter Notebook: NBRequirements",
-                "text": "02-authoring-a-notebook-nbrequirements.md"
+                "title": "Topic 2 - Authoring a Jupyter Notebook: OpenShift",
+                "text": "02-authoring-a-notebook-openshift.md"
             },
             {
-                "title": "Topic 3 - Authoring a Jupyter Notebook: Dependencies",
-                "text": "03-authoring-a-notebook-dependencies.md"
+                "title": "Topic 3 - Authoring a Jupyter Notebook: NBRequirements",
+                "text": "03-authoring-a-notebook-nbrequirements.md"
+            },
+            {
+                "title": "Topic 4 - Authoring a Jupyter Notebook: Dependencies",
+                "text": "04-authoring-a-notebook-dependencies.md"
             }
         ],
         "finish": {
