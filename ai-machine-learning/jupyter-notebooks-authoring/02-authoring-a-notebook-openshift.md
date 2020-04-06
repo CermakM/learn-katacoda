@@ -18,6 +18,7 @@ And to finally serve the notebook:
 oc process notebook-deployer                                        \
     -p APPLICATION_NAME=notebook                                    \
     -p PRELOAD_REPOS="https://github.com/CermakM/katacoda-examples" \
+    -p NOTEBOOK_PASSWORD="developer"                                \
     | oc apply -f -
 ```{{execute}}
 

@@ -23,9 +23,9 @@
       "title": "Deploying JupyterHub as a Service"
     },
     {
-      "external_link": "https://learn.openshift.com/ai-machine-learning/jupyter-notebooks-standalone/",
-      "course_id": "jupyter-notebooks-standalone",
-      "title": "Stand-alone Jupyter Notebooks"
+      "external_link": "https://learn.openshift.com/ai-machine-learning/jupyter-notebooks-authoring/",
+      "course_id": "jupyter-notebooks-authoring",
+      "title": "Jupyter Notebooks: Authoring"
     },
     {
       "external_link": "https://learn.openshift.com/ai-machine-learning/jupyterhub-workspace/",

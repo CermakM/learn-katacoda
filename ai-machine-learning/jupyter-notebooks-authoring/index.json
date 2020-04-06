@@ -14,10 +14,6 @@
             {
                 "name": "OpenShift",
                 "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"
-            },
-            {
-                "name": "Jupyter Notebook",
-                "href": "https://notebook-myproject.[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/notebooks/katacoda-examples/jupyter-notebooks/example.ipynb"
             }
         ],
         "uilayout": "terminal-iframe"
