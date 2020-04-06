@@ -14,6 +14,10 @@
             {
                 "name": "Console",
                 "href": "https://console-openshift-console-[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"
+            },
+            {
+                "name": "Jupyter Notebook",
+                "port": 8888
             }
         ],
         "uilayout": "terminal-iframe"

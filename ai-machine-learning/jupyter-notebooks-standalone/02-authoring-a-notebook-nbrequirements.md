@@ -1,3 +1,9 @@
+Let's first run the Jupyter Notebook server using our [s2i-minimal-notebook](https://github.com/thoth-station/s2i-minimal-notebook) image stored on [Quay.io](https://quay.io/).
+
+``docker run -p 8888:8888 -d –name jupyter-notebook quay.io/thoth-station/s2i-minimal-notebook``{{execute}}
+
+This image contains built-in extensions which may come in useful for this scenario, in particular `Jupyter NBRequirements`.
+
 ### Jupyter NBRequirements
 
 This extension is a Jupyter Notebook dependency manager which provides control over the notebook dependencies.
